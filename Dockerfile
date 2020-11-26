@@ -4,7 +4,8 @@ LABEL description "Renderable container image for Blender."
 LABEL version "1.0.0"
 LABEL maintainer "Danilo Peixoto <danilo@therenderable.com>"
 
-ENV BLENDER_VERSION 2.90.0
+ENV CONTAINER_NAME "renderable-blender"
+ENV BLENDER_VERSION "2.90.0"
 
 RUN apt-get update && apt-get install -y \
   bzip2 \
