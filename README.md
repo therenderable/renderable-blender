@@ -18,7 +18,7 @@ Run container:
 
 ```
 docker run --name renderable-blender renderable-blender:1.0.0
-renderable-box render -t 'blender -b $scene_path -o $sequence_path -s $frame_start -e $frame_end -a'
+renderable-box render -c 'blender -b $scene_path -o $sequence_path -s $frame_start -e $frame_end -a'
 ```
 
 ## Copyright and license
