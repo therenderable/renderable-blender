@@ -24,5 +24,5 @@ RUN wget https://mirror.clarkson.edu/blender/release/Blender$( \
   && rm -rf blender-${BLENDER_VERSION}-linux64.tar.xz \
   && rm -rf blender-${BLENDER_VERSION}-linux64
 
-CMD ["renderable-box", "render", \
-  "-c", "blender -b \$scene_path -o \$sequence_path -s \$frame_start -e \$frame_end -a"]
+CMD ["renderable-box", "render", "-c", \
+  "blender -b #scene_path -o #sequence_path -s #frame_start -e #frame_end -a"]
