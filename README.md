@@ -4,7 +4,7 @@ Renderable container image for Blender.
 
 ## Prerequisites
 
-* [Docker Engine >=19.03.12](https://docs.docker.com/engine)
+* [Docker Engine (>=19.03.12)](https://docs.docker.com/engine)
 
 ## Installation
 
@@ -24,4 +24,4 @@ docker run --name renderable-blender renderable-blender:1.0.0
 
 Copyright (c) 2020, Renderable, Inc. All rights reserved.
 
-Project developed under a [Proprietary License](LICENSE.md).
+Project developed under a [BSD-3-Clause License](LICENSE.md).

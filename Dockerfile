@@ -2,7 +2,7 @@ FROM renderable-box:1.0.0
 
 LABEL description "Renderable container image for Blender."
 LABEL version "1.0.0"
-LABEL maintainer "Danilo Peixoto <danilo@therenderable.com>"
+LABEL maintainer "Danilo Peixoto <danilopeixoto@outlook.com>"
 
 ENV CONTAINER_NAME "renderable-blender"
 ENV BLENDER_VERSION "2.90.0"
